@@ -108,7 +108,7 @@ export default class ChatBoard extends Component {
         }
 
         myFirestore
-            .collection(AppString.NODE_MESSAGES)
+            .collection(AppString.NODE_MESSAGES) 
             .doc(this.groupChatId)
             .collection(this.groupChatId)
             .doc(timestamp)
